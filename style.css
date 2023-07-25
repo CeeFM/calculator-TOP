@@ -1,0 +1,102 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+    background-color: aliceblue;
+    /*width: 70%;*/
+    min-width: 70vw;
+    width: 75vw;
+    margin: 100px auto;
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+    padding: 20px;
+    border-radius: 50px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.screen {
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    background-color: rgb(208, 208, 208);
+    display: flex;
+    margin: 0 auto;
+    border-radius: 20px;
+    flex-direction: column;
+    gap: 15px;
+}
+
+#topscreen {
+    flex-shrink: 0;
+    text-align: center;
+    font-weight: bold;
+}
+
+#bottomscreen {
+    flex-shrink: 0;
+    text-align: center;
+}
+
+.top-row {
+    display: flex;
+    /* border: 1px solid black;*/
+    width: 15%;
+    margin: 10px auto 0px;
+    flex: 0 0 auto;
+}
+
+.first-row {
+    display: flex;
+    /* border: 1px solid black;*/
+    width: 15%;
+    margin: 0px auto;
+}
+
+.second-row {
+    display: flex;
+    /* border: 1px solid black;*/
+    width: 15%;
+    margin: 0px auto;
+}
+
+.third-row {
+    display: flex;
+    /* border: 1px solid black;*/
+    width: 15%;
+    margin: 0px auto;
+}
+
+.fourth-row {
+    display: flex;
+    /* border: 1px solid black;*/
+    width: 15%;
+    margin: 0px auto;
+}
+
+.btn,
+.ops-btn,
+.num-btn {
+    flex: 1;
+    padding: 15px;
+}
+
+.ops-btn {
+    background-color: orange;
+}
+
+#equals {
+    background-color: greenyellow;
+}
+
+#delete,
+#clear {
+    background-color: rgb(254, 146, 146);
+}

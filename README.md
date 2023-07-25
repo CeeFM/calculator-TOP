@@ -1,2 +1,2 @@
 # calculator-TOP
-Calculator project, final lesson in The Odin Project's Fundamentals course
+Calculator project, final lesson in The Odin Project's Fundamentals course. This is a very haphazard final product, which I intend to come back to later to adjust and update. I didn't add keyboard support, the JS and CSS are admittedly pretty messy at this point, but instead of spending more time googling possible solutions and tinkering with the results, I've decided that I'd rather continue learning and practicing to further hone my skills.
